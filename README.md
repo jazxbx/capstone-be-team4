@@ -1,6 +1,6 @@
 # TasteBUD API
 
-const API = "localhost://3000"
+const API = "https://capstone-be-k4c5.onrender.com"
 
 **Response:**
 
@@ -194,6 +194,7 @@ fetch(`${API}/users/53590905-8b5f-41b0-a48c-cecdfe582d06/favorites`, {
 
 ## DELETE
 
+- [api/recipes/:recipeId](#deleterecipesrecipeid)
 - [api/recipes/:recipeId/favorite](#deleterecipesrecipeidfavorites)
 
 ## GET/recipes
@@ -292,7 +293,7 @@ Retrieves details of all the recipes
               "id": "98c9c1ea-8fa2-498d-9788-ac2ad0308d59"
             }
           }
-        }
+        },
       ]
     }
   ]
